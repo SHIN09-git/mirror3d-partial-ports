@@ -1,0 +1,356 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=21mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,booktabs,longtable,graphicx}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\setlength{\emergencystretch}{3em}
+\title{Supplement: Partial ports and crossing fluctuations\\in the three-dimensional Lorentz mirror model}
+\author{JJIN HANZHE}
+\date{Version 1.0.0-rc1 \quad 1 November 2026}
+\begin{document}
+\maketitle
+\noindent\textbf{Not peer reviewed.} Opus 5.5 proposed the initial plan;
+GPT-6 Astra (max) performed later research and writing under the author's
+directional guidance. There has been no external human expert review.
+The code and stored outputs accompany this report. Tables are regenerated
+from those outputs without new fitting or selection.
+\tableofcontents
+
+\section{Microscopic geometry and exact identities}
+The cube has \(L^3\) vertices, open faces in the transport direction and
+periodic transverse coordinates. The wide slab has dimensions \(L\times2L\times2L\).
+The gapped right terminals occupy \(y/L\in[1/8,3/8)\) and \([5/8,7/8)\).
+Wall A pairs adjacent unused ports along \(z\) using parity pairing;
+wall B pairs them along \(y\), with the origin aligned to \(L/8\).
+These are different microscopic wall rules, not samples to pool.
+The constriction restricts \(y,z\) to the central half-width in the central
+half of the transport direction; tangential pairing closes its sides.
+The retroreflecting variant returns a ray on its own incoming edge on the
+unused right ports. The sampling implementation specifies the discrete
+boundary conventions exactly.
+
+In a fully open graph every connected component is a closed loop or an
+open path joining two boundary ports. Replacing a port in \(W\) by pure
+retroreflection reverses its path. An \(L\)--\(A\) component stays a crossing;
+an \(L\)--\(W\) component returns to its original left port; components
+without a left port cannot create a left-to-\(A\) crossing. Thus
+\[
+C_{\rm retro}=n_{LA}^{\rm open},\qquad
+f_L=n_{LW}^{\rm open},\qquad N=C_{\rm retro}+f_L
+\]
+for each environment, without independence or continuum assumptions.
+Ordinary tangential wall pairings can concatenate distinct paths and do
+not obey this proof. Same-terminal returns use two ports, whereas a pure
+retroreflection fixed point uses one. This distinction is retained in all
+counts; it was specifically corrected and independently checked before
+the original confirmation data.
+
+For separated terminals write \(n_1=n_{LR_1}\), \(n_2=n_{LR_2}\),
+\(n_3=n_{R_1R_2}\), \(\mu_i=\E n_i\), and
+\(C_{ij}=\Cov(n_i,n_j)\). The original normalized identity residuals were
+\begin{align}
+d_A&=(C_{12}+C_{33}-2\mu_3/3)/\mu_3,\\
+d_B&=(C_{13}+C_{33}-2\mu_3/3)/\mu_3,\\
+d_C&=(C_{11}-C_{33}-2(\mu_1-\mu_3)/3)/\mu_1,\\
+e_{12,13}&=(C_{12}-C_{13})/\mu_3,\quad
+e_{12,23}=(C_{12}-C_{23})/\mu_3,\quad
+e_{13,23}=(C_{13}-C_{23})/\mu_3 .
+\end{align}
+They are hypotheses about the smooth theory, not graph identities.
+Adjacent-terminal pilots were excluded from these tests by design because
+of contact contributions; they were not removed after a confirmation result.
+
+\section{Relation to established counting theory}
+\subsection{Finite graph source and Gram matrices}
+The finite-graph connection polynomial is a useful exact representation:
+each open path contributes the scalar product of its terminal vectors,
+and closed loops have weight one in the physical replica limit.
+One may work with the polynomial before any analytic continuation.
+It does not establish a smooth phase, a convergent replica continuation
+or an interchange of thermodynamic and source-derivative limits.
+
+For the multiterminal conductor representation of Nazarov--Bagrets \cite{NB},
+take
+\[
+G_L=\begin{pmatrix}-1&-2\\0&1\end{pmatrix},\quad
+G_A=\begin{pmatrix}1&0\\-2q&-1\end{pmatrix},\quad
+G_W=\begin{pmatrix}1&0\\-2&-1\end{pmatrix}.
+\]
+Each matrix squares to the identity.
+The \(L,A\) bilinear product \(\tfrac12\operatorname{Tr}G_LG_A=2q-1\);
+the other different-terminal products equal one.
+Consequently \(q=(1+z)/2\) gives the source counting only \(L,A\) paths.
+The Pauli-vector identity turns the specified leading gradient action
+into the same complex-sphere stationary problem, up to normalization.
+The transformation is singular at zero source in this coordinate chart;
+the correspondence is understood as an analytic generating-function
+expansion near that point. It is not an equality of microscopic measures
+or of all fluctuation corrections.
+
+With conductor mean twice the crossing mean, the composite generating
+function gives
+\[
+\kappa_{1,C}=\kappa_{1,e}/2,\quad
+\kappa_{2,C}=(\kappa_{1,e}+\kappa_{2,e})/4,\quad
+\kappa_{3,C}=(3\kappa_{2,e}+\kappa_{3,e})/8.
+\]
+For characteristic potentials \(f,g\), harmonic integration by parts gives
+\[
+\int f|\nabla g|^2=M/2,\qquad
+\int f^2|\nabla g|^2=\int|\nabla(fg)|^2=J.
+\]
+The established noise functional \cite{SL,SLlong} therefore gives
+\(v_e=1-2J/M\), followed by \(v_C=1-J/M\).
+At an adjacent counted/uncounted contact, retain a smooth regulator before
+taking its limit; the left potential vanishes there.
+These general structures are inherited, not claimed as a new framework.
+
+\subsection{Mixed twist}
+For disjoint right terminals with harmonic potentials \(\phi,\psi\),
+use boundary spins \((1,0,0)\), \((\cos a,\sin a,0)\),
+\((\cos b,0,\sin b)\) and action \(K\int|\nabla{\bf n}|^2/2\).
+In transverse coordinates
+\({\bf n}=(\sqrt{1-\pi^2},\pi_1,\pi_2)\), stationarity removes the
+contribution of mixed field corrections at order \(a^2b^2\).
+Integration by parts yields
+\[
+I=\int\phi\psi\nabla\phi\cdot\nabla\psi=-J/2,\qquad
+[a^2b^2]S_{\min}=KI=-KJ/2 .
+\]
+Independent angular coordinates give
+\(-K\int\psi^2|\nabla\phi|^2/2\), the same coefficient.
+Since the connection generator is
+\(\E[(\cos a)^X(\cos b)^Y]\), \(X=n_1+n_3,Y=n_2+n_3\),
+its mixed logarithmic coefficient is \(\Cov(X,Y)/4\).
+Thus \(\Cov(X,Y)/\mu_3=2J/M\). This assumes a smooth stationary branch
+and that each microscopic side wall has the imposed Neumann limit.
+
+The registered geometric target is \(0.5138587342\), with deterministic
+allowance \(0.0018719596\). It was obtained from two boundary
+discretizations, two discrete functionals and both extrapolation forms,
+retaining all grids from 16 to 512. This allowance covers those numerical
+differences, not microscopic finite-size effects or a rigorous continuum
+error. It is subtracted before forming standardized discrepancies, not
+combined as an independent Gaussian error.
+
+\subsection{Stripe and higher-source formulas}
+On the unit cube, the harmonic mode is \(\sinh(kx)/\sinh k\).
+Its squared integral is \(I(k)=\coth k/(2k)-1/(2\sinh^2k)\).
+For rational area fractions, the inverse-cubic Fourier sum may be evaluated
+independently by grouping residue classes and using Hurwitz zeta functions.
+Direct quadrature of the mode integral gives a second check of the kernel.
+The public script repeats both checks for all tabulated stripe targets.
+For the quarter-open square, a two-dimensional sum at cutoff 8192 gives
+\[
+0.8721154649612308\le v_{\square}\le0.8721154659224014 .
+\]
+This bounds the continuum Fourier tail only. Frozen statistical tests keep
+their original registered targets, even where the later deterministic
+calculation supplies more digits.
+
+For a transverse Fourier wave number \(k\), the conditional sixth-order
+source calculation gives the mixed third-cumulant kernel
+\begin{align}
+T_*(k)={}&\frac23-\frac{2\coth k}{3k}
++\frac{2}{3\sinh^2k}
+-\frac{\coth k}{2k\sinh^2k}
++\frac{1}{4k^2\sinh^2k}+\frac{\coth k}{4k^3}.
+\end{align}
+It tends to \(4/15\) at zero wave number. For a translation-averaged mask
+with \(C_A=pN+D_A\) and \(Q_j=\langle D_A^j\rangle_{\rm translations}\),
+\[
+\kappa_3(C_A)=p^3\kappa_3(N)+3p\Cov(N,Q_2)+\E Q_3 .
+\]
+For the half-open equal-width stripes the translated complement implies
+\(Q_3=0\) separately in each environment. Hence the source projection is
+\[
+h_A=p^2T_*(0)+3\sum_{k\ne0}|a_k|^2T_*(k),\qquad p=1/2.
+\]
+This yields the refined one-stripe target \(0.4994424165286316\).
+Quarter-open masks generally have nonzero \(Q_3\); that term cannot be
+dropped. A sixth-order source refers here to derivatives of the terminal
+source, not to the sixth count cumulant. These calculations do not complete
+the microscopic matching of higher-gradient boundary terms.
+
+\section{Statistical rules and complete original results}
+The original study collected 10,446,000 environments, then a fixed addition
+of 18,167,000 for the prescribed higher-cumulant and retroreflection tests.
+The latter did not replace the original second-cumulant and covariance
+samples. All reported uncertainties below are bootstrap standard errors
+unless explicitly identified as deterministic allowances.
+Unbiased sample cumulants are used before forming plug-in ratios; a ratio
+is not asserted unbiased. Each environment, not each path or translated
+mask, is an independent resampling unit.
+
+The fixed forms are \(a+b/L\) and \(a+b/L+c/L^2\). Weighted least squares
+uses inverse squared empirical bootstrap errors; each resample is refitted.
+All original fits use \(L=16,32,64,96\). Fit probabilities below \(0.01\)
+prevent a decision. A rejection requires same-sign discrepancies exceeding
+three standard errors in both rules and both forms, the trend guard and
+Holm significance. The trend guard prevents rejecting a target when
+the largest-size point is clearly moving toward it.
+The per-test probability is the maximum over the four rule/form
+probabilities. Holm uses all 30 tests at
+\(\alpha=0.002699796063260207\), including secondary and inadequately
+powered observables. Fourth-cumulant uncertainty also has a registered
+40-block stability check. Failure of precision never becomes evidence for
+agreement or rejection.
+
+The original two-dimensional baseline passed only a limited-precision
+checkpoint after finite-size correction. It did not reproduce the cited
+baseline at the original publication's precision. This remains an explicit
+limitation; passing that checkpoint cannot validate all higher cumulants.
+
+These plans were recorded locally before collection, without an independent
+timestamp service. Hashes authenticate contents, not the historical date.
+The public registration files contain the exact precision caps, guards,
+seed allocations and original machine-readable labels.
+
+\input{tables/decisions.tex}
+\input{tables/holm.tex}
+\input{tables/original_fits.tex}
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/original_r2.pdf}
+\caption{Original second-cumulant ratios. All original sizes, both rules and both prescribed forms are shown, including the constriction's failed fit criterion.}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\textwidth]{figures/original_r3.pdf}
+\caption{Original third-cumulant ratios after the fixed addition where planned. The wide slab remains underpowered, and wall B does not pass the fit criterion.}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\textwidth]{figures/original_r4.pdf}
+\caption{Original fourth-cumulant ratios. No geometry supplies a conclusive fourth-cumulant decision.}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\textwidth]{figures/identities_gap.pdf}
+\caption{All six gapped-terminal identity residuals for wall A. Solid/dashed curves are linear/quadratic fits; teal/rust denote standard/orthogonal rules.}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\textwidth]{figures/identities_wall2.pdf}
+\caption{The corresponding six identity residuals for wall B. Together the two walls leave five identity tests undecided.}\end{figure}
+\clearpage
+\input{tables/allocations.tex}
+
+\section{Stripe confirmation: complete reports}
+The layout-difference family has four tests: zero difference and the
+predicted difference, each with both forms. The family level is \(0.05\),
+the fit threshold \(0.01\), the rule-agreement bound three combined standard
+errors and the maximum joint standard error \(0.0075\).
+The later absolute-ratio family has six tests: three masks, each with both
+forms. Its corresponding precision bound is \(0.003\).
+Each form has a common intercept with separate rule-dependent corrections.
+Every separate-rule fit is also reported.
+
+Raw fixed-mask ratios, the full-face ratio, the layout difference within
+the absolute-data sample, higher cumulants and spectra are auxiliary where
+not listed in the respective primary plan. In particular, the auxiliary
+third-cumulant and spectrum diagnostics were registered during collection,
+not before it, and receive no new confirmation decision.
+The compact release stores every environment in both primary stripe
+samples. For the later sample its columns are
+\((N,2LQ_1,2LQ_2,2LQ_4,C_1,C_2,C_4)\), all exact integers.
+This preserves the joint empirical distribution used by the primary
+bootstrap. Full transverse marginals are needed for the auxiliary
+higher-order and spectrum replay and are not included in these compact
+columns. They can be regenerated from the original seeds.
+
+\input{tables/stripe_allocations.tex}
+\input{tables/stripe_tests.tex}
+\input{tables/absolute_fits.tex}
+\input{tables/layout_fits.tex}
+
+\section{Retrospective comparisons and unfavorable diagnostics}
+The older standard-rule data show a common linear offset of
+\(0.0070564322\pm0.0016158417\) in the three absolute stripe ratios.
+Their covariance-aware shape test after removing a common offset has
+\(p=0.7386\). This distinguishes a layout contrast from an absolute test;
+it does not justify removing the offset from confirmation data.
+All-size pooled fits below retain this upward linear tendency, including
+\(L=16\); the quadratic fits and fresh larger-size sample behave differently.
+Curvature is a possible explanation only.
+
+\input{tables/pooled_fits.tex}
+\input{tables/retro_fits.tex}
+The reconstructed full-face count in the retroreflecting environments
+uses \(N=C+f_L\) and no additional sample. The partial-port comparison
+is retrospective because it followed the original rejection of \(2/3\).
+It is not counted as an additional independent confirmation of the stripe law.
+
+\section{Exploratory geometries, third cumulants and spectrum}
+The diagnostic collection consists of 128,000 calibration environments and
+68,000 subsequently held-out environments, for a total of 196,000.
+The latter were new when the fixed local-response prediction was tested;
+all later combined and source-matching uses are retrospective.
+Both rules and all sizes \(16,32,64,128,256\) are retained.
+The quarter-strip and square absolute ratios are about \(0.5\%\) high.
+Their difference is closer to the geometric target. Neither fact establishes
+an asymptotic conclusion for \(p=1/4\).
+
+The fresh half-open and independent diagnostic single-stripe third-cumulant
+estimates lie on opposite sides of the saddle value. The samples cover
+different sizes; their linear discrepancy is about two combined standard
+errors. Masks share environments and a full-face third-cumulant contribution,
+so agreement among masks is correlated evidence.
+
+\begin{figure}[htbp]\centering\includegraphics[width=.85\textwidth]{figures/third_batches.pdf}
+\caption{Auxiliary third-cumulant estimates from two independent collections, with both extrapolations and one-standard-error bars.}\end{figure}
+\input{tables/third_fits.tex}
+\input{tables/exploratory_fits.tex}
+\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/spectrum.pdf}
+\caption{Auxiliary transverse spectrum, all sizes and both rules. The continuum target is \(S_n=1-I(2\pi n)\). These correlated modes do not enter the primary confirmation family.}\end{figure}
+\input{tables/spectrum_fits.tex}
+
+\section{Why the finite-size program stopped}
+Specified finite-range fourth-order response moments were calibrated on
+the first diagnostic sample. The fixed range-two prediction was then
+tested on the held-out sample. The four joint probabilities were approximately
+\(0.303,0.288,0.620,0.612\), with no Holm rejection.
+This means that these tests did not exclude that candidate response model
+at their attained resolution. Coefficients depended on the chosen
+subtraction and range; they were not unique microscopic couplings.
+At \(L=256\), changing range from one to three changed one quarter-strip
+prediction by about \(0.000674\pm0.000164\), larger than the desired
+\(10^{-4}\) model-error scale.
+
+Subsequent work measured all output separations, separated near and far
+contributions with their covariance, and checked the exact cancellation
+of artificial range dependence in their sum. Reconstructing a measured
+window variance from the same complete measured response is an identity,
+not an independent finite-parameter prediction.
+Fourth- and sixth-order source matching, selected bulk, surface and
+contact-line terms, and specified two-loop calculations were pursued.
+The resulting seven-parameter subset was full rank, with a condition number
+of order \(10^3\). It must not be described as algebraically rank deficient.
+That does not establish complete physical identifiability or control of all
+operators of the same order.
+
+The resulting 264 candidate finite-size predictions had statistical
+covariances but no bounded physical remainder. The corrected single-stripe
+third-cumulant linear/quadratic intercepts, approximately \(0.501981\) and
+\(0.499560\), did not explain the older downward estimate near \(0.474\).
+Numerical mesh refinement of a continuum calculation is not physical
+size refinement of the microscopic model.
+The proposed subsequent confirmation was therefore never frozen or sampled.
+The user stopped further research and chose a public report of the limited
+results. No correction from this unfinished program is applied to the
+main estimates or their uncertainties.
+
+\section{Reproduction and evidential limits}
+The repository provides a numeric source registry with JSON pointers,
+file hashes, exact original seed allocations, a standalone sampler and
+the original statistical cores with portable input adapters.
+The verification script rebuilds all tables and figures, checks numeric
+sources and repeats the closed-form calculation.
+In a new Python 3.12 environment with the locked dependencies, replay of
+both stripe bootstraps, both extrapolations and all associated decisions
+gave zero difference from the stored outputs in 349,312 numeric comparisons.
+Four original blocks, containing 4,500 environments across both rules and
+both stripe samplers, were regenerated and compared element by element;
+all were identical. These are replays of existing seeds, not new samples.
+
+This release does not replay all original-geometry raw data, every auxiliary
+spectrum or higher-source statistic, or the unfinished finite-size program.
+Their saved results are identified as such. Other operating systems and
+other numerical-library versions have not been tested.
+The published hashes do not independently date the local registration.
+Separate implementations and exact identities reduce implementation risk;
+they do not replace external expert review or a proof of a microscopic
+continuum limit.
+\bibliographystyle{unsrt}
+\bibliography{refs}
+\end{document}

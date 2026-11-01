@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this research report and specify the version used."
+title: "Partial ports and crossing fluctuations in the three-dimensional Lorentz mirror model"
+type: software
+authors:
+  - family-names: "JJIN HANZHE"
+version: 1.0.0-rc1
+abstract: "Unreviewed research report, compact observations and code for exact pure-retroreflection reduction and conditional three-dimensional partial-port fluctuation tests."
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - Lorentz mirror model
+  - crossing fluctuations
+  - partial ports
+  - reproducibility
