@@ -1,0 +1,193 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "stage": "t3b",
+      "passed": true,
+      "max_abs_difference": 0.0,
+      "numeric_comparisons": 124460,
+      "structural_differences": 0,
+      "checks": [
+        {
+          "numbers": 10023,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "standard",
+          "L": 16
+        },
+        {
+          "numbers": 10023,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "standard",
+          "L": 32
+        },
+        {
+          "numbers": 10023,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "standard",
+          "L": 64
+        },
+        {
+          "numbers": 10023,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "standard",
+          "L": 128
+        },
+        {
+          "numbers": 10023,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "orthogonal",
+          "L": 16
+        },
+        {
+          "numbers": 10023,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "orthogonal",
+          "L": 32
+        },
+        {
+          "numbers": 10023,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "orthogonal",
+          "L": 64
+        },
+        {
+          "numbers": 10023,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "orthogonal",
+          "L": 128
+        },
+        {
+          "kind": "all_fits_and_decisions",
+          "numbers": 44276,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": []
+        }
+      ],
+      "samples": 2522250,
+      "bootstrap_seeds": [
+        330030001,
+        330030002,
+        330030003,
+        330030004,
+        330030005,
+        330030006,
+        330030007,
+        330030008
+      ],
+      "tolerance": 1e-12
+    },
+    {
+      "stage": "t3c",
+      "passed": true,
+      "max_abs_difference": 0.0,
+      "numeric_comparisons": 224852,
+      "structural_differences": 0,
+      "checks": [
+        {
+          "numbers": 16025,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "standard",
+          "L": 32
+        },
+        {
+          "numbers": 16025,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "standard",
+          "L": 64
+        },
+        {
+          "numbers": 16025,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "standard",
+          "L": 128
+        },
+        {
+          "numbers": 16025,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "standard",
+          "L": 256
+        },
+        {
+          "numbers": 16025,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "orthogonal",
+          "L": 32
+        },
+        {
+          "numbers": 16025,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "orthogonal",
+          "L": 64
+        },
+        {
+          "numbers": 16025,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "orthogonal",
+          "L": 128
+        },
+        {
+          "numbers": 16025,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": [],
+          "rule": "orthogonal",
+          "L": 256
+        },
+        {
+          "kind": "all_fits_and_decisions",
+          "numbers": 96652,
+          "max_abs_difference": 0.0,
+          "max_difference_path": "",
+          "structural_differences": []
+        }
+      ],
+      "samples": 1146500,
+      "bootstrap_seeds": [
+        679925300,
+        841496916,
+        4285283429,
+        1600146856,
+        4258797266,
+        2141657993,
+        3227410029,
+        1894540754
+      ],
+      "tolerance": 1e-12
+    }
+  ],
+  "cpu_s": 138.484375,
+  "wall_s": 140.42359849996865,
+  "python": "3.12.10",
+  "numpy": "2.4.4"
+}

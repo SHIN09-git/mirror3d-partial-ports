@@ -1,0 +1,160 @@
+{
+  "stage": "T3B_GEOMETRY_CONFIRMATION",
+  "frozen_utc": "2026-10-30T13:06:17.052363+00:00",
+  "rules": [
+    "standard",
+    "orthogonal"
+  ],
+  "sizes": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "mask": "A_m = {right port with L <= 4*((m*y)%L) < 3L}, m=1,2,4; transverse periodic; full left counted",
+  "cells": [
+    {
+      "rule": "standard",
+      "L": 16,
+      "N": 293000,
+      "bootstrap_seed": 330030001
+    },
+    {
+      "rule": "standard",
+      "L": 32,
+      "N": 616500,
+      "bootstrap_seed": 330030002
+    },
+    {
+      "rule": "standard",
+      "L": 64,
+      "N": 251750,
+      "bootstrap_seed": 330030003
+    },
+    {
+      "rule": "standard",
+      "L": 128,
+      "N": 20000,
+      "bootstrap_seed": 330030004
+    },
+    {
+      "rule": "orthogonal",
+      "L": 16,
+      "N": 327500,
+      "bootstrap_seed": 330030005
+    },
+    {
+      "rule": "orthogonal",
+      "L": 32,
+      "N": 698750,
+      "bootstrap_seed": 330030006
+    },
+    {
+      "rule": "orthogonal",
+      "L": 64,
+      "N": 294750,
+      "bootstrap_seed": 330030007
+    },
+    {
+      "rule": "orthogonal",
+      "L": 128,
+      "N": 20000,
+      "bootstrap_seed": 330030008
+    }
+  ],
+  "targets": {
+    "r1": 0.7994137779886705,
+    "r2": 0.8163722547665228,
+    "r4": 0.8248527940451953,
+    "rN": 0.6666666666666666,
+    "delta41": 0.025439016056524766
+  },
+  "B": 2000,
+  "workers": 12,
+  "seed_file": "configs\\t3b_confirmation_seeds.json",
+  "seed_sha256": "544323227086b5d8b3c0abd22dc3acbd1d3a0fc1d149e5ff4a92ddb3c138bf50",
+  "source_sha256": {
+    "t3b\\analysis.py": "02419b5f9e917f21c00723685cb8a7cb913ed2d669a9a356702e9f3e0689e375",
+    "t3b\\boundary.py": "d63f5839aa0278267acf3a883eb76ffc12d32d2dad7a0c09ca5be2d24b6cf026",
+    "t3b\\campaign.py": "963fdb0150dae4f031868f1467572dba70bd35d98d63b85cf99bc50c3863cb0a",
+    "t3b\\common.py": "62824e1158fd5356890ab3b8f7b7c51ba4d33a9112ff3844bd5a288c2b7d5cfa",
+    "t3b\\freeze.py": "efff5f66c12b937f076f14bfacff3b28257e85451a805615044fd7c8fba09a1c",
+    "t3b\\kernel.py": "08193fff1e9c10360739d1d58bb07ed25b169c256c01d2bf20cb0336ae87405b",
+    "t3b\\lattice.py": "2cc47e617afc1a9f5a06ab4e594da2139c46e1b6eead1cf4159579f137b93187",
+    "t3b\\pilot.py": "d11dcd0ba89370b4108a21ba31ec297d16261abebdfec29cbdc653926bba87cc",
+    "t3b\\validate.py": "917b1486fe1111b70f865ca0e4205d3ef35c3cf0a5232ac0498beba99a2ef81c",
+    "t3b\\validate_analysis.py": "e8917142664f8a3c6f96a5f392b8eb6e7fd3a61827febdba249a32a41caa1084",
+    "t3b\\__init__.py": "eeea306ed2bce913860f23469997ceb6eb4bc413e01c7fcd20e51a6aa5c85b79",
+    "g1/model.py": "6fdd01c2f81616c2e74914092dfca665d2d9a7dd40f6613db18702e47c433b94",
+    "g1/simulate.py": "b21e5bc487836fa5d950050d576089518680601650e7ed29de18dad090f0910f",
+    "g1/fast_trace.py": "00fa5ece17620feb9ff100a666f3acb49b51e15082d80837d54fe1f4c034f971",
+    "t3/common.py": "a90da8a42a1be9207606d2ea6564727e90511190b1a6f8ede6bdb9a295bfd4f7",
+    "t3/field.py": "63ebecef52983655e4767843d5b116f530e3872cf7dee639e353dbf49b5a5275"
+  },
+  "primary": "delta41=r4-r1; joint common intercept with rule-specific slopes; separate rule fits and agreement required",
+  "extrapolations": [
+    "a+b/L",
+    "a+b/L+c/L^2"
+  ],
+  "family_alpha": 0.05,
+  "primary_family": [
+    "zero_1",
+    "zero_2",
+    "theory_1",
+    "theory_2"
+  ],
+  "multiplicity": "Holm across these four predeclared tests",
+  "minimum_fit_p": 0.01,
+  "maximum_joint_se": 0.0075,
+  "rule_agreement_z_max": 3,
+  "decision": "geometry signature: both zero tests rejected, positive, all primary fit and rule-agreement gates pass; theory compatibility: no theory test rejected, all gates and precision pass; compatibility is not equivalence",
+  "secondary": "rN,r1,r2,r4 and any kappa3: descriptive only; no confirmatory claim from uncorrected secondary tests",
+  "no_exclusions": true,
+  "no_outcome_adaptive_topups": true,
+  "old_data_and_pilot_excluded": true,
+  "sampling_reservation_s": 10500,
+  "cost_bound_by_cell": {
+    "standard_16": 0.00021875,
+    "standard_32": 0.00175,
+    "standard_64": 0.013875,
+    "standard_128": 0.11809375,
+    "orthogonal_16": 0.0001875,
+    "orthogonal_32": 0.0015625,
+    "orthogonal_64": 0.012625,
+    "orthogonal_128": 0.1061875
+  },
+  "budget": {
+    "this_stage_CPU_h": 3.5,
+    "combined_G5_T3_T3B_CPU_h": 5,
+    "storage_bytes": 2000000000
+  },
+  "design": [
+    {
+      "rule": "standard",
+      "counts": [
+        293000,
+        616500,
+        251750,
+        20000
+      ],
+      "projected_cpu_s": 3498.9375,
+      "inflated_individual_quadratic_se": 0.008054006000584467
+    },
+    {
+      "rule": "orthogonal",
+      "counts": [
+        327500,
+        698750,
+        294750,
+        20000
+      ],
+      "projected_cpu_s": 3499.0859375,
+      "inflated_individual_quadratic_se": 0.007946592240348119
+    }
+  ],
+  "projected_joint_quadratic_se": 0.0056566833590873285,
+  "conservative_individual_test_power": 0.9772204578710506,
+  "pilot_path": "results\\runs\\t3b_pilot_20261030T125850389178Z\\nuisance.json",
+  "pilot_sha256": "438ad0c34fc42687168a84ef1c16f1e1b5b052d64351f1b1f3831a569cf623cf",
+  "new_samples_generated_before_freeze": 0
+}

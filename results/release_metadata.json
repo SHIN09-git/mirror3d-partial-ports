@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-rc1",
+  "date": "2026-11-01",
+  "author": "JJIN HANZHE",
+  "code_license": "MIT",
+  "manuscript_data_license": "CC-BY-4.0",
+  "status": "Prepared local release candidate for author review; not uploaded or externally peer reviewed",
+  "ai_systems_user_reported": [
+    "GPT-6 Astra (max)",
+    "Opus 5.5"
+  ],
+  "human_contribution": "Directional guidance",
+  "ai_contribution": "Initial plan proposed by Opus 5.5; later research design, simulations, analysis, derivations and writing performed by GPT-6 Astra (max) under human guidance. No external human expert review.",
+  "novelty_scope": "Specific pure-retroreflection reduction, three-dimensional stripe formula and numerical tests; acknowledge existing two-dimensional boundary connection counting and existing multiterminal diffusive theory."
+}

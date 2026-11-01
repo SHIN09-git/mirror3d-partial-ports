@@ -1,0 +1,505 @@
+[
+  {
+    "key": "Ruijgrok",
+    "doi": "10.1016/0375-9601(88)90927-9",
+    "title": "Deterministic lattice gas models",
+    "year": "1988",
+    "authors": [
+      {
+        "given": "Th.W.",
+        "family": "Ruijgrok"
+      },
+      {
+        "given": "E.G.D.",
+        "family": "Cohen"
+      }
+    ],
+    "url": "https://doi.org/10.1016/0375-9601(88)90927-9",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Chiffaudel",
+    "doi": "10.1088/1751-8113/49/10/10lt02",
+    "title": "The mirrors model: macroscopic diffusion without noise or chaos",
+    "year": "2016",
+    "authors": [
+      {
+        "given": "Yann",
+        "family": "Chiffaudel"
+      },
+      {
+        "given": "Raphaël",
+        "family": "Lefevere"
+      }
+    ],
+    "url": "https://doi.org/10.1088/1751-8113/49/10/10lt02",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "NSSO",
+    "doi": "10.1103/physrevb.87.184204",
+    "title": "Loop models with crossings",
+    "year": "2013",
+    "authors": [
+      {
+        "given": "Adam",
+        "family": "Nahum"
+      },
+      {
+        "given": "P.",
+        "family": "Serna"
+      },
+      {
+        "given": "A. M.",
+        "family": "Somoza"
+      },
+      {
+        "given": "M.",
+        "family": "Ortuño"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevb.87.184204",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Goldstone",
+    "doi": "10.1103/physrevlett.90.090601",
+    "title": "Dense Loops, Supersymmetry, and Goldstone Phases in Two Dimensions",
+    "year": "2003",
+    "authors": [
+      {
+        "given": "J. L.",
+        "family": "Jacobsen"
+      },
+      {
+        "given": "N.",
+        "family": "Read"
+      },
+      {
+        "given": "H.",
+        "family": "Saleur"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevlett.90.090601",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Nahum2011",
+    "doi": "10.1103/physrevlett.107.110601",
+    "title": "3D Loop Models and the<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:msup><mml:mi>CP</mml:mi><mml:mrow><mml:mi>n</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:math>Sigma Model",
+    "year": "2011",
+    "authors": [
+      {
+        "given": "Adam",
+        "family": "Nahum"
+      },
+      {
+        "given": "J. T.",
+        "family": "Chalker"
+      },
+      {
+        "given": "P.",
+        "family": "Serna"
+      },
+      {
+        "given": "M.",
+        "family": "Ortuño"
+      },
+      {
+        "given": "A. M.",
+        "family": "Somoza"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevlett.107.110601",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Nahum3D",
+    "doi": "10.1103/physrevb.88.134411",
+    "title": "Phase transitions in three-dimensional loop models and the<mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mml:mrow><mml:mi>C</mml:mi><mml:msup><mml:mi>P</mml:mi><mml:mrow><mml:mi>n</mml:mi><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:math>sigma model",
+    "year": "2013",
+    "authors": [
+      {
+        "given": "Adam",
+        "family": "Nahum"
+      },
+      {
+        "given": "J. T.",
+        "family": "Chalker"
+      },
+      {
+        "given": "P.",
+        "family": "Serna"
+      },
+      {
+        "given": "M.",
+        "family": "Ortuño"
+      },
+      {
+        "given": "A. M.",
+        "family": "Somoza"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevb.88.134411",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Beenakker",
+    "doi": "10.1103/physrevb.46.1889",
+    "title": "Suppression of shot noise in metallic diffusive conductors",
+    "year": "1992",
+    "authors": [
+      {
+        "given": "C. W. J.",
+        "family": "Beenakker"
+      },
+      {
+        "given": "M.",
+        "family": "Büttiker"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevb.46.1889",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Nagaev",
+    "doi": "10.1016/0375-9601(92)90814-3",
+    "title": "On the shot noise in dirty metal contacts",
+    "year": "1992",
+    "authors": [
+      {
+        "given": "K.E.",
+        "family": "Nagaev"
+      }
+    ],
+    "url": "https://doi.org/10.1016/0375-9601(92)90814-3",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Blanter",
+    "doi": "10.1016/s0370-1573(99)00123-4",
+    "title": "Shot noise in mesoscopic conductors",
+    "year": "2000",
+    "authors": [
+      {
+        "given": "Ya.M.",
+        "family": "Blanter"
+      },
+      {
+        "given": "M.",
+        "family": "Büttiker"
+      }
+    ],
+    "url": "https://doi.org/10.1016/s0370-1573(99)00123-4",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "LLY",
+    "doi": "10.1103/physrevb.51.4079",
+    "title": "Universal statistics of transport in disordered conductors",
+    "year": "1995",
+    "authors": [
+      {
+        "given": "Hyunwoo",
+        "family": "Lee"
+      },
+      {
+        "given": "L. S.",
+        "family": "Levitov"
+      },
+      {
+        "given": "A. Yu.",
+        "family": "Yakovets"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevb.51.4079",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "SL",
+    "doi": "10.1103/physrevlett.80.4959",
+    "title": "Universality of Shot Noise in Multiterminal Diffusive Conductors",
+    "year": "1998",
+    "authors": [
+      {
+        "given": "Eugene V.",
+        "family": "Sukhorukov"
+      },
+      {
+        "given": "Daniel",
+        "family": "Loss"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevlett.80.4959",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "SLlong",
+    "doi": "10.1103/physrevb.59.13054",
+    "title": "Noise in multiterminal diffusive conductors: Universality, nonlocality, and exchange effects",
+    "year": "1999",
+    "authors": [
+      {
+        "given": "Eugene V.",
+        "family": "Sukhorukov"
+      },
+      {
+        "given": "Daniel",
+        "family": "Loss"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevb.59.13054",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "NB",
+    "doi": "10.1103/physrevlett.88.196801",
+    "title": "Circuit Theory for Full Counting Statistics in Multiterminal Circuits",
+    "year": "2002",
+    "authors": [
+      {
+        "given": "Yu. V.",
+        "family": "Nazarov"
+      },
+      {
+        "given": "D. A.",
+        "family": "Bagrets"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevlett.88.196801",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "DDR",
+    "doi": "10.1023/b:joss.0000022379.95508.b2",
+    "title": "Current Fluctuations in the One-Dimensional Symmetric Exclusion Process with Open Boundaries",
+    "year": "2004",
+    "authors": [
+      {
+        "given": "B.",
+        "family": "Derrida"
+      },
+      {
+        "given": "B.",
+        "family": "Douçot"
+      },
+      {
+        "given": "P.-E.",
+        "family": "Roche"
+      }
+    ],
+    "url": "https://doi.org/10.1023/b:joss.0000022379.95508.b2",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Bodineau",
+    "doi": "10.1103/physrevlett.92.180601",
+    "title": "Current Fluctuations in Nonequilibrium Diffusive Systems: An Additivity Principle",
+    "year": "2004",
+    "authors": [
+      {
+        "given": "T.",
+        "family": "Bodineau"
+      },
+      {
+        "given": "B.",
+        "family": "Derrida"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevlett.92.180601",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "MFT",
+    "doi": "10.1103/revmodphys.87.593",
+    "title": "Macroscopic fluctuation theory",
+    "year": "2015",
+    "authors": [
+      {
+        "given": "Lorenzo",
+        "family": "Bertini"
+      },
+      {
+        "given": "Alberto",
+        "family": "De Sole"
+      },
+      {
+        "given": "Davide",
+        "family": "Gabrielli"
+      },
+      {
+        "given": "Giovanni",
+        "family": "Jona-Lasinio"
+      },
+      {
+        "given": "Claudio",
+        "family": "Landim"
+      }
+    ],
+    "url": "https://doi.org/10.1103/revmodphys.87.593",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "ABDS",
+    "doi": "10.1209/0295-5075/103/20001",
+    "title": "Universal current fluctuations in the symmetric exclusion process and other diffusive systems",
+    "year": "2013",
+    "authors": [
+      {
+        "given": "Eric",
+        "family": "Akkermans"
+      },
+      {
+        "given": "Thierry",
+        "family": "Bodineau"
+      },
+      {
+        "given": "Bernard",
+        "family": "Derrida"
+      },
+      {
+        "given": "Ohad",
+        "family": "Shpielberg"
+      }
+    ],
+    "url": "https://doi.org/10.1209/0295-5075/103/20001",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Morin",
+    "doi": "10.21468/scipostphys.4.6.034",
+    "title": "Two-point boundary correlation functions of dense loop models",
+    "year": "2018",
+    "authors": [
+      {
+        "given": "Alexi",
+        "family": "Morin-Duchesne"
+      },
+      {
+        "given": "Jesper Lykke",
+        "family": "Jacobsen"
+      }
+    ],
+    "url": "https://doi.org/10.21468/scipostphys.4.6.034",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "GLR",
+    "doi": "10.1103/physrevlett.82.4524",
+    "title": "Exact Exponents for the Spin Quantum Hall Transition",
+    "year": "1999",
+    "authors": [
+      {
+        "given": "Ilya A.",
+        "family": "Gruzberg"
+      },
+      {
+        "given": "Andreas W. W.",
+        "family": "Ludwig"
+      },
+      {
+        "given": "N.",
+        "family": "Read"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevlett.82.4524",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Beamond",
+    "doi": "10.1103/physrevb.65.214301",
+    "title": "Quantum and classical localization, the spin quantum Hall effect, and generalizations",
+    "year": "2002",
+    "authors": [
+      {
+        "given": "E. J.",
+        "family": "Beamond"
+      },
+      {
+        "given": "John",
+        "family": "Cardy"
+      },
+      {
+        "given": "J. T.",
+        "family": "Chalker"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevb.65.214301",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Ortuno",
+    "doi": "10.1103/physrevlett.102.070603",
+    "title": "Random Walks and Anderson Localization in a Three-Dimensional Class C Network Model",
+    "year": "2009",
+    "authors": [
+      {
+        "given": "M.",
+        "family": "Ortuño"
+      },
+      {
+        "given": "A. M.",
+        "family": "Somoza"
+      },
+      {
+        "given": "J. T.",
+        "family": "Chalker"
+      }
+    ],
+    "url": "https://doi.org/10.1103/physrevlett.102.070603",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "Cardy",
+    "doi": "10.1142/s0217979210064678",
+    "title": "QUANTUM NETWORK MODELS AND CLASSICAL LOCALIZATION PROBLEMS",
+    "year": "2010",
+    "authors": [
+      {
+        "given": "John",
+        "family": "Cardy"
+      }
+    ],
+    "url": "https://doi.org/10.1142/s0217979210064678",
+    "verification": "Publisher-deposited Crossref metadata; reading level separately documented"
+  },
+  {
+    "key": "LT",
+    "title": "Hierarchical Lorentz Mirror Model: Normal Transport and a Universal $2/3$ Mean--Variance Law",
+    "authors": [
+      "Raphael Lefevere",
+      "Hal Tasaki"
+    ],
+    "arxiv": "https://arxiv.org/abs/2602.07988v5",
+    "verification": "arXiv metadata and indicated version; not assigned an unverified journal citation"
+  },
+  {
+    "key": "Serna",
+    "title": "3D Unoriented loop models and the $\\mathrm{RP}^{n-1}$ sigma model",
+    "authors": [
+      "Pablo Serna"
+    ],
+    "arxiv": "https://arxiv.org/abs/2107.13366v2",
+    "verification": "arXiv metadata and indicated version; not assigned an unverified journal citation"
+  },
+  {
+    "key": "Nazarov",
+    "title": "Generalized Ohm's law",
+    "authors": [
+      "Yuli Nazarov"
+    ],
+    "arxiv": "https://arxiv.org/abs/cond-mat/9410011v1",
+    "verification": "arXiv metadata and indicated version; not assigned an unverified journal citation"
+  },
+  {
+    "key": "Gu",
+    "title": "Routing and memory in the three-dimensional mirror model on K-lattice",
+    "authors": [
+      "Jian Gu",
+      "Paul Schaeffer",
+      "Qin Hao"
+    ],
+    "arxiv": "https://arxiv.org/abs/2609.23244v1",
+    "verification": "arXiv metadata and indicated version; not assigned an unverified journal citation"
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "stage": "t3b",
+    "rule": "standard",
+    "L": 16,
+    "n": 293000,
+    "file": "data/t3b_standard_L16.npz",
+    "sha256": "5c9a934f90a320151a6c1b107860009ff74021bc84ebf0689ae0d2224ea19c4e",
+    "dtype": "uint16",
+    "shape": [
+      293000,
+      4
+    ],
+    "max_Q_rounding_error": 0.0,
+    "columns": [
+      "N",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3b",
+    "rule": "standard",
+    "L": 32,
+    "n": 616500,
+    "file": "data/t3b_standard_L32.npz",
+    "sha256": "6df0ffa8df03467bc40fd385784e2daf5ffb785cc494ae4fc6360d46fee180cd",
+    "dtype": "uint16",
+    "shape": [
+      616500,
+      4
+    ],
+    "max_Q_rounding_error": 0.0,
+    "columns": [
+      "N",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3b",
+    "rule": "standard",
+    "L": 64,
+    "n": 251750,
+    "file": "data/t3b_standard_L64.npz",
+    "sha256": "6e9ffa44aa57e2a91ab30da1af03489e10fe2df2aef9aecbc129dec2d02d9681",
+    "dtype": "uint16",
+    "shape": [
+      251750,
+      4
+    ],
+    "max_Q_rounding_error": 0.0,
+    "columns": [
+      "N",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3b",
+    "rule": "standard",
+    "L": 128,
+    "n": 20000,
+    "file": "data/t3b_standard_L128.npz",
+    "sha256": "6e8eaf544a0cc7efab03129a275ca9a2daeca1ac8088b0c9f36dece7fbce70ce",
+    "dtype": "uint16",
+    "shape": [
+      20000,
+      4
+    ],
+    "max_Q_rounding_error": 0.0,
+    "columns": [
+      "N",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3b",
+    "rule": "orthogonal",
+    "L": 16,
+    "n": 327500,
+    "file": "data/t3b_orthogonal_L16.npz",
+    "sha256": "e9b2efb6d3aa6651ba6519f840d50625f67b63a8143b057220028ccc1b17b8d2",
+    "dtype": "uint16",
+    "shape": [
+      327500,
+      4
+    ],
+    "max_Q_rounding_error": 0.0,
+    "columns": [
+      "N",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3b",
+    "rule": "orthogonal",
+    "L": 32,
+    "n": 698750,
+    "file": "data/t3b_orthogonal_L32.npz",
+    "sha256": "7ac0935299d0bf98727ef75bca82fbf0b20e46b88f946be8411033f35857abe6",
+    "dtype": "uint16",
+    "shape": [
+      698750,
+      4
+    ],
+    "max_Q_rounding_error": 0.0,
+    "columns": [
+      "N",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3b",
+    "rule": "orthogonal",
+    "L": 64,
+    "n": 294750,
+    "file": "data/t3b_orthogonal_L64.npz",
+    "sha256": "4cd6a1b8394f1e317b568c854bb4a9c2ed0fbb02ae22c07212ceab7dd8dfd0a9",
+    "dtype": "uint16",
+    "shape": [
+      294750,
+      4
+    ],
+    "max_Q_rounding_error": 0.0,
+    "columns": [
+      "N",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3b",
+    "rule": "orthogonal",
+    "L": 128,
+    "n": 20000,
+    "file": "data/t3b_orthogonal_L128.npz",
+    "sha256": "a66afc14dfd5051fffa5c895ac80f07fa06efb90c4382ac3e0220ad562b8b7f5",
+    "dtype": "uint16",
+    "shape": [
+      20000,
+      4
+    ],
+    "max_Q_rounding_error": 0.0,
+    "columns": [
+      "N",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3c",
+    "rule": "standard",
+    "L": 32,
+    "n": 166000,
+    "file": "data/t3c_standard_L32.npz",
+    "sha256": "ebfe95d12318c094ad1fd7cdbbb09b71d23252c2285e3fb559f8e54dc1492356",
+    "dtype": "uint32",
+    "shape": [
+      166000,
+      7
+    ],
+    "max_Q_rounding_error": 4.263256414560601e-14,
+    "columns": [
+      "N",
+      "2L_Q1",
+      "2L_Q2",
+      "2L_Q4",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3c",
+    "rule": "standard",
+    "L": 64,
+    "n": 290250,
+    "file": "data/t3c_standard_L64.npz",
+    "sha256": "f4ca2dc25d8d9b25fc0fa8900b8515eaa1be2c78b58ee66a3e76ca3e0791fe7e",
+    "dtype": "uint32",
+    "shape": [
+      290250,
+      7
+    ],
+    "max_Q_rounding_error": 8.526512829121202e-14,
+    "columns": [
+      "N",
+      "2L_Q1",
+      "2L_Q2",
+      "2L_Q4",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3c",
+    "rule": "standard",
+    "L": 128,
+    "n": 77000,
+    "file": "data/t3c_standard_L128.npz",
+    "sha256": "6d520d8ed810f7ec61d41f9d21dcecce4dc43b1d8aada5f0d41a70479f3b4e1b",
+    "dtype": "uint32",
+    "shape": [
+      77000,
+      7
+    ],
+    "max_Q_rounding_error": 2.8421709430404007e-13,
+    "columns": [
+      "N",
+      "2L_Q1",
+      "2L_Q2",
+      "2L_Q4",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3c",
+    "rule": "standard",
+    "L": 256,
+    "n": 40000,
+    "file": "data/t3c_standard_L256.npz",
+    "sha256": "abdb634a256deff22f0a21d69aa6409cb0fe5592979e65e40e0ad2bea893d7b9",
+    "dtype": "uint32",
+    "shape": [
+      40000,
+      7
+    ],
+    "max_Q_rounding_error": 4.547473508864641e-13,
+    "columns": [
+      "N",
+      "2L_Q1",
+      "2L_Q2",
+      "2L_Q4",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3c",
+    "rule": "orthogonal",
+    "L": 32,
+    "n": 166000,
+    "file": "data/t3c_orthogonal_L32.npz",
+    "sha256": "f463bdc8297fa84ecf210f4ffeb6103057c9dfba1480a598f6db0d77150d084d",
+    "dtype": "uint32",
+    "shape": [
+      166000,
+      7
+    ],
+    "max_Q_rounding_error": 2.842170943040401e-14,
+    "columns": [
+      "N",
+      "2L_Q1",
+      "2L_Q2",
+      "2L_Q4",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3c",
+    "rule": "orthogonal",
+    "L": 64,
+    "n": 290250,
+    "file": "data/t3c_orthogonal_L64.npz",
+    "sha256": "e7204fd353ef6df3d76ba030345eb3054db4ff08ca0e151d4dd5b467d4e1e4e6",
+    "dtype": "uint32",
+    "shape": [
+      290250,
+      7
+    ],
+    "max_Q_rounding_error": 7.105427357601002e-14,
+    "columns": [
+      "N",
+      "2L_Q1",
+      "2L_Q2",
+      "2L_Q4",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3c",
+    "rule": "orthogonal",
+    "L": 128,
+    "n": 77000,
+    "file": "data/t3c_orthogonal_L128.npz",
+    "sha256": "4e78d0dfa14858d099f77dfce202adf7ab6aaf7e8dd5641e848dc91bc41425b0",
+    "dtype": "uint32",
+    "shape": [
+      77000,
+      7
+    ],
+    "max_Q_rounding_error": 1.7053025658242404e-13,
+    "columns": [
+      "N",
+      "2L_Q1",
+      "2L_Q2",
+      "2L_Q4",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  },
+  {
+    "stage": "t3c",
+    "rule": "orthogonal",
+    "L": 256,
+    "n": 40000,
+    "file": "data/t3c_orthogonal_L256.npz",
+    "sha256": "061f666c4e48c324f1a2ee95b6582bfc4ad17c675fa7195926660c0b2debf4c2",
+    "dtype": "uint32",
+    "shape": [
+      40000,
+      7
+    ],
+    "max_Q_rounding_error": 2.8421709430404007e-13,
+    "columns": [
+      "N",
+      "2L_Q1",
+      "2L_Q2",
+      "2L_Q4",
+      "C1",
+      "C2",
+      "C4"
+    ]
+  }
+]

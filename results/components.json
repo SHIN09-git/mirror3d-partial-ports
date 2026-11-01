@@ -1,0 +1,310 @@
+{
+  "classification": "AUXILIARY, specified during collection; outside the frozen primary family",
+  "paired_checks": {
+    "standard_L32_m1": {
+      "difference": 0.002022509139609885,
+      "se": 0.002426622297343855,
+      "raw_over_orbit_SE": 2.143294191768282
+    },
+    "standard_L32_m2": {
+      "difference": 0.0024344065059894726,
+      "se": 0.0024446935167420276,
+      "raw_over_orbit_SE": 2.10475400078216
+    },
+    "standard_L32_m4": {
+      "difference": 0.0009490546565060765,
+      "se": 0.002398351149217887,
+      "raw_over_orbit_SE": 2.0075007722361433
+    },
+    "standard_L64_m1": {
+      "difference": 0.001276360614172134,
+      "se": 0.0017961573206410992,
+      "raw_over_orbit_SE": 2.0515055434193576
+    },
+    "standard_L64_m2": {
+      "difference": 0.003079926085645779,
+      "se": 0.0019194620995807994,
+      "raw_over_orbit_SE": 2.1390144187906537
+    },
+    "standard_L64_m4": {
+      "difference": -0.00013014209055384196,
+      "se": 0.0018762987940981806,
+      "raw_over_orbit_SE": 2.109985485087132
+    },
+    "standard_L128_m1": {
+      "difference": -0.003279875907582608,
+      "se": 0.0035365971704672183,
+      "raw_over_orbit_SE": 2.0658517708388233
+    },
+    "standard_L128_m2": {
+      "difference": -0.005186603470348716,
+      "se": 0.0037149277595885264,
+      "raw_over_orbit_SE": 2.0622801397741704
+    },
+    "standard_L128_m4": {
+      "difference": -0.005298144589780063,
+      "se": 0.003688317878133452,
+      "raw_over_orbit_SE": 2.1036790376204024
+    },
+    "standard_L256_m1": {
+      "difference": 0.0028063611780235753,
+      "se": 0.0049890242739684485,
+      "raw_over_orbit_SE": 2.1420362099094445
+    },
+    "standard_L256_m2": {
+      "difference": -0.003609968483541337,
+      "se": 0.005009032270714696,
+      "raw_over_orbit_SE": 2.1267992875332618
+    },
+    "standard_L256_m4": {
+      "difference": 0.0008505861148134786,
+      "se": 0.00520681952439433,
+      "raw_over_orbit_SE": 2.1627716703604025
+    },
+    "orthogonal_L32_m1": {
+      "difference": -0.0004094774759276776,
+      "se": 0.0024574846954242132,
+      "raw_over_orbit_SE": 2.099135827951563
+    },
+    "orthogonal_L32_m2": {
+      "difference": 0.00020765767527008983,
+      "se": 0.0025282783086635363,
+      "raw_over_orbit_SE": 2.172690098843555
+    },
+    "orthogonal_L32_m4": {
+      "difference": -0.002501669942507223,
+      "se": 0.0024611517547680423,
+      "raw_over_orbit_SE": 2.0693458135163807
+    },
+    "orthogonal_L64_m1": {
+      "difference": 0.0007272815986839598,
+      "se": 0.0017961275277659917,
+      "raw_over_orbit_SE": 2.043942673829146
+    },
+    "orthogonal_L64_m2": {
+      "difference": 0.0016206211848017738,
+      "se": 0.0018871575564767702,
+      "raw_over_orbit_SE": 2.12836508337615
+    },
+    "orthogonal_L64_m4": {
+      "difference": -0.0006730518970682331,
+      "se": 0.001849456912642828,
+      "raw_over_orbit_SE": 2.0119702602722223
+    },
+    "orthogonal_L128_m1": {
+      "difference": -0.00581100249506894,
+      "se": 0.0036118468401079074,
+      "raw_over_orbit_SE": 2.057166567014531
+    },
+    "orthogonal_L128_m2": {
+      "difference": 0.000631193038361344,
+      "se": 0.003654470443042882,
+      "raw_over_orbit_SE": 2.115002174549785
+    },
+    "orthogonal_L128_m4": {
+      "difference": 0.002096208511351949,
+      "se": 0.0037469113030360298,
+      "raw_over_orbit_SE": 2.137604298962265
+    },
+    "orthogonal_L256_m1": {
+      "difference": 0.003864516160357323,
+      "se": 0.005005539897797141,
+      "raw_over_orbit_SE": 2.1351713040442277
+    },
+    "orthogonal_L256_m2": {
+      "difference": 0.001292884812555073,
+      "se": 0.00514091157458993,
+      "raw_over_orbit_SE": 2.141794461194548
+    },
+    "orthogonal_L256_m4": {
+      "difference": -0.005084066590950398,
+      "se": 0.0051533729090523514,
+      "raw_over_orbit_SE": 2.1048675264808803
+    }
+  },
+  "paired_pvalues": {
+    "standard_L32_m1": 0.40458151010644816,
+    "standard_L32_m2": 0.3193511665085026,
+    "standard_L32_m4": 0.6923180167055314,
+    "standard_L64_m1": 0.4773282703387377,
+    "standard_L64_m2": 0.10858677173207307,
+    "standard_L64_m4": 0.9447022165095456,
+    "standard_L128_m1": 0.3537136527524507,
+    "standard_L128_m2": 0.16266875606205178,
+    "standard_L128_m4": 0.1508696795020157,
+    "standard_L256_m1": 0.5737706219412735,
+    "standard_L256_m2": 0.4710991586386054,
+    "standard_L256_m4": 0.8702349834471181,
+    "orthogonal_L32_m1": 0.8676654133798634,
+    "orthogonal_L32_m2": 0.9345401360226413,
+    "orthogonal_L32_m4": 0.30940891059688924,
+    "orthogonal_L64_m1": 0.6855389194949348,
+    "orthogonal_L64_m2": 0.39047125542153116,
+    "orthogonal_L64_m4": 0.7159187437065433,
+    "orthogonal_L128_m1": 0.1076441366020927,
+    "orthogonal_L128_m2": 0.8628730487941809,
+    "orthogonal_L128_m4": 0.5758548310424139,
+    "orthogonal_L256_m1": 0.4400861060756993,
+    "orthogonal_L256_m2": 0.8014357496865364,
+    "orthogonal_L256_m4": 0.32386266900608984
+  },
+  "paired_Holm_rejections": [],
+  "precision_gain_range": [
+    2.0075007722361433,
+    2.172690098843555
+  ],
+  "decomposition": {
+    "r1": {
+      "1": {
+        "full_face_half": 0.3327913726825125,
+        "endpoint_allocation": 0.4669603023227781,
+        "se": [
+          0.0009728886286546245,
+          0.0005577879513853171
+        ],
+        "covariance": [
+          [
+            9.46512283765476e-07,
+            -5.88309359933994e-09
+          ],
+          [
+            -5.88309359933994e-09,
+            3.111273987106289e-07
+          ]
+        ],
+        "targets": [
+          0.3333333333333333,
+          0.4660804446553372
+        ],
+        "parent_weights": "same as the corresponding primary joint fit",
+        "component_fit_p": null
+      },
+      "2": {
+        "full_face_half": 0.329827143792912,
+        "endpoint_allocation": 0.46719469279688475,
+        "se": [
+          0.0020709829690108384,
+          0.0012021501011534655
+        ],
+        "covariance": [
+          [
+            4.288970457932947e-06,
+            9.798836678480895e-09
+          ],
+          [
+            9.798836678480895e-09,
+            1.4451648657032875e-06
+          ]
+        ],
+        "targets": [
+          0.3333333333333333,
+          0.4660804446553372
+        ],
+        "parent_weights": "same as the corresponding primary joint fit",
+        "component_fit_p": null
+      }
+    },
+    "r2": {
+      "1": {
+        "full_face_half": 0.3327693117318022,
+        "endpoint_allocation": 0.4843168083429089,
+        "se": [
+          0.0009725767965518071,
+          0.0005889351466984937
+        ],
+        "covariance": [
+          [
+            9.459056251909751e-07,
+            -7.953332188778941e-09
+          ],
+          [
+            -7.953332188778941e-09,
+            3.468446070167763e-07
+          ]
+        ],
+        "targets": [
+          0.3333333333333333,
+          0.48303892143318944
+        ],
+        "parent_weights": "same as the corresponding primary joint fit",
+        "component_fit_p": null
+      },
+      "2": {
+        "full_face_half": 0.3297336228195014,
+        "endpoint_allocation": 0.48314024978349857,
+        "se": [
+          0.002068332620695589,
+          0.001255608205944104
+        ],
+        "covariance": [
+          [
+            4.277999829833484e-06,
+            -2.8721979408768023e-08
+          ],
+          [
+            -2.8721979408768023e-08,
+            1.576551966834172e-06
+          ]
+        ],
+        "targets": [
+          0.3333333333333333,
+          0.48303892143318944
+        ],
+        "parent_weights": "same as the corresponding primary joint fit",
+        "component_fit_p": null
+      }
+    },
+    "r4": {
+      "1": {
+        "full_face_half": 0.3327807564902329,
+        "endpoint_allocation": 0.49308009106309264,
+        "se": [
+          0.0009721556073212178,
+          0.0006159641533916938
+        ],
+        "covariance": [
+          [
+            9.450865248460857e-07,
+            -1.27852937005989e-09
+          ],
+          [
+            -1.27852937005989e-09,
+            3.7941183826354597e-07
+          ]
+        ],
+        "targets": [
+          0.3333333333333333,
+          0.491519460711862
+        ],
+        "parent_weights": "same as the corresponding primary joint fit",
+        "component_fit_p": null
+      },
+      "2": {
+        "full_face_half": 0.329814217564772,
+        "endpoint_allocation": 0.49040031836710235,
+        "se": [
+          0.0020697169333179755,
+          0.0012510415834045762
+        ],
+        "covariance": [
+          [
+            4.283728184063165e-06,
+            9.120763160292056e-08
+          ],
+          [
+            9.120763160292056e-08,
+            1.5651050434074292e-06
+          ]
+        ],
+        "targets": [
+          0.3333333333333333,
+          0.491519460711862
+        ],
+        "parent_weights": "same as the corresponding primary joint fit",
+        "component_fit_p": null
+      }
+    }
+  },
+  "max_additive_error": 5.662137425588298e-15,
+  "caution": "The paired ratio difference has ordinary finite-sample plug-in bias. These are implementation/structure diagnostics, not added primary confirmation; nonrejection is not an equivalence test. Component p_fit is intentionally absent because parent weights are held fixed."
+}

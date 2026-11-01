@@ -1,0 +1,129 @@
+{
+  "stage": "T3C",
+  "frozen_utc": "2026-10-30T14:35:39.872506+00:00",
+  "design_sha256": "f521fa75b6b30ee87bbe7d489b102490397dc6f343e044e7ae18196b972cba63",
+  "pilot_nuisance_sha256": "70b825c7ca2567228327b9a106d0fcc23d41cca33b13534ac1ffec941240d0b7",
+  "classification": "Fresh independent fixed-quota confirmation after disclosed T3B post-hoc diagnostics",
+  "cells": [
+    {
+      "rule": "standard",
+      "L": 32,
+      "N": 166000,
+      "bootstrap_seed": 679925300
+    },
+    {
+      "rule": "standard",
+      "L": 64,
+      "N": 290250,
+      "bootstrap_seed": 841496916
+    },
+    {
+      "rule": "standard",
+      "L": 128,
+      "N": 77000,
+      "bootstrap_seed": 4285283429
+    },
+    {
+      "rule": "standard",
+      "L": 256,
+      "N": 40000,
+      "bootstrap_seed": 1600146856
+    },
+    {
+      "rule": "orthogonal",
+      "L": 32,
+      "N": 166000,
+      "bootstrap_seed": 4258797266
+    },
+    {
+      "rule": "orthogonal",
+      "L": 64,
+      "N": 290250,
+      "bootstrap_seed": 2141657993
+    },
+    {
+      "rule": "orthogonal",
+      "L": 128,
+      "N": 77000,
+      "bootstrap_seed": 3227410029
+    },
+    {
+      "rule": "orthogonal",
+      "L": 256,
+      "N": 40000,
+      "bootstrap_seed": 1894540754
+    }
+  ],
+  "rules": [
+    "standard",
+    "orthogonal"
+  ],
+  "sizes": [
+    32,
+    64,
+    128,
+    256
+  ],
+  "masks": [
+    1,
+    2,
+    4
+  ],
+  "open_fraction": 0.5,
+  "estimand": "same ensemble Var(C_m)/E(C_m), estimated by exact transverse-translation and y/z-exchange symmetry averaging",
+  "estimator": "(0.5*s2_N+2*mean(Q_m))/mean(N), Q_m=mean_over_2L_masks((C_m-N/2)^2)",
+  "primary": [
+    "r1",
+    "r2",
+    "r4"
+  ],
+  "secondary": [
+    "rN",
+    "raw1",
+    "raw2",
+    "raw4",
+    "delta41"
+  ],
+  "targets": {
+    "r1": 0.7994137779886705,
+    "r2": 0.8163722547665228,
+    "r4": 0.8248527940451953,
+    "rN": 0.6666666666666666,
+    "delta41": 0.025439016056524766
+  },
+  "B": 2000,
+  "forms": [
+    "a+b/L",
+    "a+b/L+c/L^2"
+  ],
+  "joint": "common intercept only; rule-specific correction coefficients",
+  "family_alpha": 0.05,
+  "primary_family": "six two-sided theory-target tests: 3 layouts x 2 forms; Holm step-down",
+  "minimum_fit_p": 0.01,
+  "maximum_joint_se": 0.003,
+  "maximum_rule_difference_combined_se": 3,
+  "verdict": "Both forms and all fit/rule/precision gates must pass. Both adjusted rejections with same sign = robust_rejection; neither rejection = compatible_at_resolution; otherwise inconclusive. No equivalence claim.",
+  "all_sizes_and_samples_retained": true,
+  "no_old_or_pilot_samples_pooled": true,
+  "no_effect_dependent_stopping": true,
+  "workers": 12,
+  "environments_per_seed": 250,
+  "checkpoint_jobs": 24,
+  "seed_file": "configs/t3c_confirmation_seeds.json",
+  "seed_sha256": "3f985904def2abb850a147506bcf3004aa65d41a894cf19401b0d948de34b5ec",
+  "expected_CPU_h": 12.209067925347222,
+  "expected_raw_bytes": 722088000,
+  "resource_authorization": "Earlier CPU/storage ceilings explicitly lifted by user; actual usage remains recorded.",
+  "source_sha256": {
+    "t3c/sampler.py": "91b46f7f349151db997f22b58d124f33ead9f3adfa9d30090e1130a4cb994c1c",
+    "t3c/campaign.py": "27a14f227735061ae3129c953be5b4b4abc49c9cbbafb88cb555da551bbb842d",
+    "t3c/confirmation.py": "5f68da18389351139704fef0cdf6e082e5b28be9b81177a3b271c1079073eb1b",
+    "t3c/common.py": "2221cbaf727d2339092cf3a8c9e88ecb1d58c5b18403ec855359decd07f9e78b",
+    "t3b/kernel.py": "08193fff1e9c10360739d1d58bb07ed25b169c256c01d2bf20cb0336ae87405b",
+    "t3b/analysis.py": "02419b5f9e917f21c00723685cb8a7cb913ed2d669a9a356702e9f3e0689e375",
+    "t3b/common.py": "62824e1158fd5356890ab3b8f7b7c51ba4d33a9112ff3844bd5a288c2b7d5cfa",
+    "t3/common.py": "a90da8a42a1be9207606d2ea6564727e90511190b1a6f8ede6bdb9a295bfd4f7",
+    "g1/model.py": "6fdd01c2f81616c2e74914092dfca665d2d9a7dd40f6613db18702e47c433b94",
+    "g1/simulate.py": "b21e5bc487836fa5d950050d576089518680601650e7ed29de18dad090f0910f"
+  }
+}

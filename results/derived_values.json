@@ -1,0 +1,29 @@
+{
+  "absolute_form_spread": {
+    "r1": {
+      "absolute": 0.0027298384154949007,
+      "percent": 0.3414800308249864
+    },
+    "r2": {
+      "absolute": 0.004212247471706454,
+      "percent": 0.5159714146472469
+    },
+    "r4": {
+      "absolute": 0.005646311621446132,
+      "percent": 0.6845235491966776
+    }
+  },
+  "reconstructed_N_range": [
+    0.6664999749274956,
+    0.670848226461278
+  ],
+  "retro_z_range": [
+    -0.695226457422575,
+    2.6460560789850307
+  ],
+  "diagnostic_samples": 196000,
+  "all_stripe_samples": 3668750,
+  "replay_comparisons": 349312,
+  "replay_environments": 4500,
+  "note": "Algebraic summaries of saved results; no new extrapolation or decision."
+}

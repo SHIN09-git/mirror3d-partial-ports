@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "stage": "t3b",
+      "index": 0,
+      "rule": "standard",
+      "L": 16,
+      "n": 2000,
+      "seeds": [
+        878411592,
+        701821633,
+        1043275050,
+        3814884495,
+        2915466206,
+        1341150441,
+        1480976789,
+        1332580067
+      ],
+      "shape": [
+        2000,
+        4
+      ],
+      "dtype": "uint16",
+      "array_sha256": "cebc07eabcd7038ba73efde01e74fc98c0401bc23a604001f4946e4f5639a204",
+      "npy_sha256": "24838622550a4e739ea8426479ad2053640dbb079586e52b8534ca74a652da97",
+      "passed": true
+    },
+    {
+      "stage": "t3b",
+      "index": 592,
+      "rule": "orthogonal",
+      "L": 16,
+      "n": 2000,
+      "seeds": [
+        4183949522,
+        2553677476,
+        1340567124,
+        4024531878,
+        1039358229,
+        2568961421,
+        3296399678,
+        1769690571
+      ],
+      "shape": [
+        2000,
+        4
+      ],
+      "dtype": "uint16",
+      "array_sha256": "b4c73eda3e8d6dd392c7d7994d16a94a2e206cafd6183206465fe8e9ddf0d7ad",
+      "npy_sha256": "6d5a93237aaa5aeb9ddd8a050734521b32086d8774d9e185bb9f7d6fd0efbc40",
+      "passed": true
+    },
+    {
+      "stage": "t3c",
+      "index": 0,
+      "rule": "standard",
+      "L": 32,
+      "n": 250,
+      "seeds": [
+        3122047219
+      ],
+      "shape": [
+        250,
+        68
+      ],
+      "dtype": "uint32",
+      "array_sha256": "4b9dcf87fc5d525c871ff6eb2ca6ccc2a881bb4938463a9d21834f09a36ef794",
+      "npy_sha256": "7e4b81cd053e483f50f6656d53f985abcef898a1444d69c6a0ad0048af69ff5c",
+      "passed": true
+    },
+    {
+      "stage": "t3c",
+      "index": 2293,
+      "rule": "orthogonal",
+      "L": 32,
+      "n": 250,
+      "seeds": [
+        787161564
+      ],
+      "shape": [
+        250,
+        68
+      ],
+      "dtype": "uint32",
+      "array_sha256": "d6c86748418f000a7b2319b676e0056c68e8051a52c2c23ff33f5a9a2fedbebc",
+      "npy_sha256": "19cf06f53f8fad54e32e87feafeae2a79354377e2a19676ac5af6b2a3126ab35",
+      "passed": true
+    }
+  ],
+  "cpu_s": 3.96875,
+  "wall_s": 4.450904000084847,
+  "new_seeds": 0,
+  "direct_original_comparisons": [
+    {
+      "original": "results/runs/t3b_sample_20261030T130639918780Z/chunk_0000.npy",
+      "samples": 2000,
+      "elements": 8000,
+      "exact": true,
+      "original_sha256": "24838622550a4e739ea8426479ad2053640dbb079586e52b8534ca74a652da97",
+      "replayed_sha256": "24838622550a4e739ea8426479ad2053640dbb079586e52b8534ca74a652da97"
+    },
+    {
+      "original": "results/runs/t3b_sample_20261030T130639918780Z/chunk_0592.npy",
+      "samples": 2000,
+      "elements": 8000,
+      "exact": true,
+      "original_sha256": "6d5a93237aaa5aeb9ddd8a050734521b32086d8774d9e185bb9f7d6fd0efbc40",
+      "replayed_sha256": "6d5a93237aaa5aeb9ddd8a050734521b32086d8774d9e185bb9f7d6fd0efbc40"
+    },
+    {
+      "original": "results/runs/t3c_sample_20261030T143558119005Z/chunk_00000.npy",
+      "samples": 250,
+      "elements": 17000,
+      "exact": true,
+      "original_sha256": "7e4b81cd053e483f50f6656d53f985abcef898a1444d69c6a0ad0048af69ff5c",
+      "replayed_sha256": "7e4b81cd053e483f50f6656d53f985abcef898a1444d69c6a0ad0048af69ff5c"
+    },
+    {
+      "original": "results/runs/t3c_sample_20261030T143558119005Z/chunk_02293.npy",
+      "samples": 250,
+      "elements": 17000,
+      "exact": true,
+      "original_sha256": "19cf06f53f8fad54e32e87feafeae2a79354377e2a19676ac5af6b2a3126ab35",
+      "replayed_sha256": "19cf06f53f8fad54e32e87feafeae2a79354377e2a19676ac5af6b2a3126ab35"
+    }
+  ]
+}

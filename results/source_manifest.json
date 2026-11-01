@@ -1,0 +1,323 @@
+[
+  {
+    "original": "results/runs/t3b_analysis_20261030T132539518067Z/analysis.json",
+    "original_sha256": "44bc9c1d18f20096cbc0eef89b730dea906ece88bbe70d2b566a6fa01f1ccaf1",
+    "release": "results/t3b_analysis.json",
+    "release_sha256": "44bc9c1d18f20096cbc0eef89b730dea906ece88bbe70d2b566a6fa01f1ccaf1",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3b_analysis_20261030T132539518067Z/orthogonal_L128.json",
+    "original_sha256": "f5d4f48c2378573bbd486f1807a7a2582035409459b9a8c487421bb7bbea6288",
+    "release": "results/t3b_cells/orthogonal_L128.json",
+    "release_sha256": "f5d4f48c2378573bbd486f1807a7a2582035409459b9a8c487421bb7bbea6288",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3b_analysis_20261030T132539518067Z/orthogonal_L16.json",
+    "original_sha256": "328a95ddd2c0fcf82ede06f5c8a0dc930a245e3702288a0c392f4e8106425033",
+    "release": "results/t3b_cells/orthogonal_L16.json",
+    "release_sha256": "328a95ddd2c0fcf82ede06f5c8a0dc930a245e3702288a0c392f4e8106425033",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3b_analysis_20261030T132539518067Z/orthogonal_L32.json",
+    "original_sha256": "ce792196141f03cc6bc39348ab277753826382cbcbdc7543062e86557678fe86",
+    "release": "results/t3b_cells/orthogonal_L32.json",
+    "release_sha256": "ce792196141f03cc6bc39348ab277753826382cbcbdc7543062e86557678fe86",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3b_analysis_20261030T132539518067Z/orthogonal_L64.json",
+    "original_sha256": "3348293a11c2d4b18651604ee372a1ae6222408f3fd78f84b876407ec6c7fe4f",
+    "release": "results/t3b_cells/orthogonal_L64.json",
+    "release_sha256": "3348293a11c2d4b18651604ee372a1ae6222408f3fd78f84b876407ec6c7fe4f",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3b_analysis_20261030T132539518067Z/standard_L128.json",
+    "original_sha256": "316b4171854bc73489f6148e9612f8fcd2fead83a99bf1c8b39ea69fac90e5c8",
+    "release": "results/t3b_cells/standard_L128.json",
+    "release_sha256": "316b4171854bc73489f6148e9612f8fcd2fead83a99bf1c8b39ea69fac90e5c8",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3b_analysis_20261030T132539518067Z/standard_L16.json",
+    "original_sha256": "09577df5c08d84e96949ae800a9eec7d33423fad228f1f4b792b54a2cf707f6c",
+    "release": "results/t3b_cells/standard_L16.json",
+    "release_sha256": "09577df5c08d84e96949ae800a9eec7d33423fad228f1f4b792b54a2cf707f6c",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3b_analysis_20261030T132539518067Z/standard_L32.json",
+    "original_sha256": "a11713e254ef88de9bb81eaa87738def3f45d8d07ec40a3b87b6fc92144aff46",
+    "release": "results/t3b_cells/standard_L32.json",
+    "release_sha256": "a11713e254ef88de9bb81eaa87738def3f45d8d07ec40a3b87b6fc92144aff46",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3b_analysis_20261030T132539518067Z/standard_L64.json",
+    "original_sha256": "f3639d36efb14e20fde9d5da86bd1acbd7c2e311f92f96af7aab077d4f0e4de0",
+    "release": "results/t3b_cells/standard_L64.json",
+    "release_sha256": "f3639d36efb14e20fde9d5da86bd1acbd7c2e311f92f96af7aab077d4f0e4de0",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3c_confirmation_20261030T160339458591Z/analysis.json",
+    "original_sha256": "a9a2d17501e93e0382c901585098e4dc50698ec458598b2f5046edfc6ffa535a",
+    "release": "results/t3c_analysis.json",
+    "release_sha256": "a9a2d17501e93e0382c901585098e4dc50698ec458598b2f5046edfc6ffa535a",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3c_confirmation_20261030T160339458591Z/orthogonal_L128.json",
+    "original_sha256": "6e97c7005147cd3600ae94ce0569b614981817857876caaebd15d388e6a8a3d5",
+    "release": "results/t3c_cells/orthogonal_L128.json",
+    "release_sha256": "6e97c7005147cd3600ae94ce0569b614981817857876caaebd15d388e6a8a3d5",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3c_confirmation_20261030T160339458591Z/orthogonal_L256.json",
+    "original_sha256": "c865c38f7e927a02f3ef90a4f985934c751ebdd11120b86654cdce592e3e1232",
+    "release": "results/t3c_cells/orthogonal_L256.json",
+    "release_sha256": "c865c38f7e927a02f3ef90a4f985934c751ebdd11120b86654cdce592e3e1232",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3c_confirmation_20261030T160339458591Z/orthogonal_L32.json",
+    "original_sha256": "3f8374d1b3c6ad49470b9a77778767baaa17a5875b301fbde7ab7255c187e9ec",
+    "release": "results/t3c_cells/orthogonal_L32.json",
+    "release_sha256": "3f8374d1b3c6ad49470b9a77778767baaa17a5875b301fbde7ab7255c187e9ec",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3c_confirmation_20261030T160339458591Z/orthogonal_L64.json",
+    "original_sha256": "f6201c76b2fdbed7779ec07d3148eb6e046f2ffc8c720b851005fb0895d93864",
+    "release": "results/t3c_cells/orthogonal_L64.json",
+    "release_sha256": "f6201c76b2fdbed7779ec07d3148eb6e046f2ffc8c720b851005fb0895d93864",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3c_confirmation_20261030T160339458591Z/standard_L128.json",
+    "original_sha256": "8a9aeb4064a0f55d25804a76188d8ecddd844ef7c6db50c2b8cd278354f97f55",
+    "release": "results/t3c_cells/standard_L128.json",
+    "release_sha256": "8a9aeb4064a0f55d25804a76188d8ecddd844ef7c6db50c2b8cd278354f97f55",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3c_confirmation_20261030T160339458591Z/standard_L256.json",
+    "original_sha256": "ed794699110b11f2812111b4e7b919219f41be25e25d78e863a991fb1463853c",
+    "release": "results/t3c_cells/standard_L256.json",
+    "release_sha256": "ed794699110b11f2812111b4e7b919219f41be25e25d78e863a991fb1463853c",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3c_confirmation_20261030T160339458591Z/standard_L32.json",
+    "original_sha256": "1c5822ea8497408899a5ef8623c403f199bab3ab059bc99feccca5a9c427d1d2",
+    "release": "results/t3c_cells/standard_L32.json",
+    "release_sha256": "1c5822ea8497408899a5ef8623c403f199bab3ab059bc99feccca5a9c427d1d2",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/t3c_confirmation_20261030T160339458591Z/standard_L64.json",
+    "original_sha256": "68c2dc3d62faefb3635cb72b7c36dc9012956135dd6363233ab4f0bde47c6b08",
+    "release": "results/t3c_cells/standard_L64.json",
+    "release_sha256": "68c2dc3d62faefb3635cb72b7c36dc9012956135dd6363233ab4f0bde47c6b08",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "results/runs/g3_registered_analysis_20261028T051300502553Z/decision.json",
+    "original_sha256": "664a0476666b551592053d4e687376176288f220d86adb379cbaa8afa4df27ed",
+    "release": "results/original_second.json",
+    "release_sha256": "f27c80d358f1279e8891e9fbd09feed9691fc483d73684b585c7a0a5f325b222",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "results/runs/g4_registered_analysis_20261028T084547766939Z/decision.json",
+    "original_sha256": "c8e33a81c1698b211b1e35dae5eb92cddffd2c9f9ad3a2dcfb7823597336acf5",
+    "release": "results/original_final.json",
+    "release_sha256": "6277f50588c01ed45b5ffaf7eb8badc98dfc0211c8f38e6dcd32116d0f8b65c6",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "results/runs/g3_registered_analysis_20261028T051300502553Z/points.json",
+    "original_sha256": "bc689dfee766384839c26089b2af6a587f6f65e8af72ce5808f285eee9fc6b3c",
+    "release": "results/original_second_points.json",
+    "release_sha256": "a37853e76f9c8610831921531b071e06173901fd7aa803e57abe4907aa025a69",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "results/runs/g4_registered_analysis_20261028T084547766939Z/points.json",
+    "original_sha256": "99cb9c2f45ef0245c2e47d10a871dc8f1e534bafa20a9238f6a1dc993882a10b",
+    "release": "results/original_final_points.json",
+    "release_sha256": "b0c4eb9339b07b80aa96b39a06a0657ecf48414c9d24956d695bf5766ffa852f",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "results/runs/t3c_higher_check_20261030T160518415874Z/higher.json",
+    "original_sha256": "cbfa003837ac4f99e5a3c1b48f7fb0ff1efb4dd8b8c73f93da5aa607b324d21c",
+    "release": "results/higher.json",
+    "release_sha256": "141ea3beb731186c7c96006fa557f1a6692b3c7cf919fd5ed18e7d3f65c468e2",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "results/runs/t3c_pooled_20261030T160518406776Z/pooled.json",
+    "original_sha256": "55a16c9e8630022ef0ffa4b768c19fe96ca6eba5e715ac128374e25a07bfc83b",
+    "release": "results/pooled.json",
+    "release_sha256": "32cbb39bf84d8592839b0c06891365c1652e98aec864d562205a91737e6cf74a",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "results/runs/t3c_spectrum_20261030T160518402083Z/spectrum.json",
+    "original_sha256": "4b6bfd12972242bff04992d72be6ea005b728e7a06758e6e5ffa90a5233abd4b",
+    "release": "results/spectrum.json",
+    "release_sha256": "7ef057319fdd7f2d2d4482f0530551f3f60ec2c7bc21b3887797be51c0c95186",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "results/runs/t3c_components_20261030T160518443388Z/components.json",
+    "original_sha256": "d9b9ef06db4ff8c633e98525a430399c385619ec01458ba52fe155e44b652252",
+    "release": "results/components.json",
+    "release_sha256": "4b39f0d5d350a07dc641dd29c449b5958be13e4ceccd0c46113c56cd9057cfea",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "results/runs/t3c_diagnostics_20261030T142332049560Z/diagnostics.json",
+    "original_sha256": "1d41b24f82f14a71d9cfbf02425c808dfac3df2b4e45303f310b3b412d57e44c",
+    "release": "results/earlier_diagnostics.json",
+    "release_sha256": "2b3f04d8b227a71f1ec5cb09969e16ddb6af65d234c2003c1eda405010792d2a",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "results/runs/t3d3_analysis_20261031T075959025515Z/extrapolations.json",
+    "original_sha256": "1f2fa9cca702e6b48086293dbd333313cdf6edf19079e468fbe753f8689cbad4",
+    "release": "results/exploratory.json",
+    "release_sha256": "1f2fa9cca702e6b48086293dbd333313cdf6edf19079e468fbe753f8689cbad4",
+    "change": "Remove replicate arrays and internal data-location fields only"
+  },
+  {
+    "original": "configs/preregistration.json",
+    "original_sha256": "0f993bda0fe076f00c24f4c681a6cf7ad75a792ca283ed8e98e172438a517237",
+    "release": "preregistration/preregistration.json",
+    "release_sha256": "0f993bda0fe076f00c24f4c681a6cf7ad75a792ca283ed8e98e172438a517237",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "configs/confirmatory_seed_reservations.json",
+    "original_sha256": "61845186e2dcc1d63965c2240f008664b561283b0b3ac0a3a44f6ec5553e4199",
+    "release": "preregistration/confirmatory_seed_reservations.json",
+    "release_sha256": "61845186e2dcc1d63965c2240f008664b561283b0b3ac0a3a44f6ec5553e4199",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "configs/g2_confirmation_design.json",
+    "original_sha256": "91c12bd230bae14ac565b91a2a0b20fb39e8c585f3c7da1ac95639a6747d1428",
+    "release": "preregistration/g2_confirmation_design.json",
+    "release_sha256": "91c12bd230bae14ac565b91a2a0b20fb39e8c585f3c7da1ac95639a6747d1428",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "configs/t3b_preregistration.json",
+    "original_sha256": "e57a0b6ec2d4a8aadc2c2f7f66707b86bbaac1842b1797bf581f4b1ebbc9aa85",
+    "release": "preregistration/t3b_preregistration.json",
+    "release_sha256": "e57a0b6ec2d4a8aadc2c2f7f66707b86bbaac1842b1797bf581f4b1ebbc9aa85",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "configs/t3b_confirmation_seeds.json",
+    "original_sha256": "544323227086b5d8b3c0abd22dc3acbd1d3a0fc1d149e5ff4a92ddb3c138bf50",
+    "release": "preregistration/t3b_confirmation_seeds.json",
+    "release_sha256": "544323227086b5d8b3c0abd22dc3acbd1d3a0fc1d149e5ff4a92ddb3c138bf50",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "configs/t3c_preregistration.json",
+    "original_sha256": "1771764b1d8975a4701b69a8304b6acce13011ca99d27a39f71f8a6ec71e5c41",
+    "release": "preregistration/t3c_preregistration.json",
+    "release_sha256": "1771764b1d8975a4701b69a8304b6acce13011ca99d27a39f71f8a6ec71e5c41",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "configs/t3c_confirmation_seeds.json",
+    "original_sha256": "3f985904def2abb850a147506bcf3004aa65d41a894cf19401b0d948de34b5ec",
+    "release": "preregistration/t3c_confirmation_seeds.json",
+    "release_sha256": "3f985904def2abb850a147506bcf3004aa65d41a894cf19401b0d948de34b5ec",
+    "change": "Byte-identical"
+  },
+  {
+    "original": "t3b/kernel.py",
+    "original_sha256": "08193fff1e9c10360739d1d58bb07ed25b169c256c01d2bf20cb0336ae87405b",
+    "release": "code/kernel.py",
+    "release_sha256": "a3337cbca04eee103f175305b6952aa7e9c0adca270ca912f32b9c5e2a94b61a",
+    "change": "Byte-identical source text; newline normalization only",
+    "diff_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "original": "t3c/sampler.py",
+    "original_sha256": "91b46f7f349151db997f22b58d124f33ead9f3adfa9d30090e1130a4cb994c1c",
+    "release": "code/sampler.py",
+    "release_sha256": "91acfbe6fbb795c7a0252a4d7555cdd6b22a2cf0de63bf0ee68baaea3e557f9a",
+    "change": "Relative public module import only",
+    "diff_sha256": "b1f8ac28f713f635de7184463788cebc64f328df2cd134c5f70118a1dbf5317e"
+  },
+  {
+    "original": "g1/model.py",
+    "original_sha256": "6fdd01c2f81616c2e74914092dfca665d2d9a7dd40f6613db18702e47c433b94",
+    "release": "code/pairings.py",
+    "release_sha256": "46ba2426274e64090d13d3757f79237ed80a867f9a1334363562f6e635a55dd6",
+    "change": "Extract unchanged pairing_table; remove unrelated geometries",
+    "diff_sha256": "24cb067323ea5426c16ad2fb27d9e50f44c01e905ffbd7cfb4f2a8a291af8e3c"
+  },
+  {
+    "original": "t3b/analysis.py",
+    "original_sha256": "02419b5f9e917f21c00723685cb8a7cb913ed2d669a9a356702e9f3e0689e375",
+    "release": "code/paired_analysis.py",
+    "release_sha256": "046daffc2a89a2af60b0025b9e0f61e0b1f1ba2ecbd84e72a7f21fdcfa8bd5d4",
+    "change": "Keep bootstrap, fit and Holm unchanged; remove original task launcher and local imports",
+    "diff_sha256": "533116593346f5f0d75342924dfa698eccfb5257aea11b701799f8c06434e64b"
+  },
+  {
+    "original": "t3c/confirmation.py",
+    "original_sha256": "5f68da18389351139704fef0cdf6e082e5b28be9b81177a3b271c1079073eb1b",
+    "release": "code/orbit_analysis.py",
+    "release_sha256": "ece31475114eb37d03e8eb593527ba67ba0a258599e783278ca7fbf59c4ba774",
+    "change": "Replace raw-marginal to integer-feature adapter with the same precomputed integers; statistical arithmetic unchanged; remove task launcher",
+    "diff_sha256": "58b9a4b24c1e5fdaff2a084293aff3557fe24acc92937ad1d157de22964450ad"
+  },
+  {
+    "original": "releaseprep/closed_form.py",
+    "original_sha256": "db377c57e5be870a8bfacac6a18c5673357e4946e63c07fdb2f8aafd97b68350",
+    "release": "code/theory.py",
+    "release_sha256": "01536800b95b51c91300e3209d6c187cacea36ff3d7a8ffd6064c0f7d5e6e936",
+    "change": "Extract deterministic theory functions without private task record/path imports",
+    "diff_sha256": "d42f8bc8291a2d64de8dbf181841ad4602c9bf5f5a95fbdc37353368f0dd2b48"
+  },
+  {
+    "original": "results/runs/t3_saved_data_20261028T111613076535Z/analysis.json",
+    "original_sha256": "31e8bc99cb9ff80f78c6a113a3d4a931f7dd2827673a743cc0f0764304430628",
+    "release": "results/retro_reconstruction.json",
+    "release_sha256": "dec335772de9e449312d4556b2afa02d4b85a4ba99b249f5dceec58df7ee6fac",
+    "change": "Summary, omit replicate arrays only"
+  },
+  {
+    "original": "results/runs/t3d2_holdout_analysis_20261031T063316021147Z/analysis.json",
+    "original_sha256": "444d353372465fc12eac64190981ecfa291c473578fe9f8b58424da503c53313",
+    "release": "results/holdout_response.json",
+    "release_sha256": "444d353372465fc12eac64190981ecfa291c473578fe9f8b58424da503c53313",
+    "change": "JSON serialization; values unchanged"
+  },
+  {
+    "original": "results/runs/t3eft_candidate_predictions_20261031T105648006118Z/analysis.json",
+    "original_sha256": "0ee4e3a56b34567f66c3cce0c159c27c745a36549874423c151a9e4c88f4b28e",
+    "release": "results/matching_predictions.json",
+    "release_sha256": "0ee4e3a56b34567f66c3cce0c159c27c745a36549874423c151a9e4c88f4b28e",
+    "change": "JSON serialization; values unchanged"
+  },
+  {
+    "original": "results/runs/t3eft_historical_extrapolations_20261031T105518473930Z/analysis.json",
+    "original_sha256": "2bcd355db7500740acfbb21f5779a9f29d888630787cacba33881f2981e8f213",
+    "release": "results/matching_extrapolations.json",
+    "release_sha256": "2bcd355db7500740acfbb21f5779a9f29d888630787cacba33881f2981e8f213",
+    "change": "JSON serialization; values unchanged"
+  }
+]
