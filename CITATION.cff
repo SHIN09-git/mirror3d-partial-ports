@@ -4,7 +4,9 @@ title: "Partial ports and crossing fluctuations in the three-dimensional Lorentz
 type: software
 authors:
   - family-names: "JJIN HANZHE"
-version: 1.0.0-rc1
+version: 1.0.0
+date-released: 2026-11-03
+repository-code: "https://github.com/SHIN09-git/mirror3d-partial-ports"
 abstract: "Unreviewed research report, compact observations and code for exact pure-retroreflection reduction and conditional three-dimensional partial-port fluctuation tests."
 license:
   - MIT

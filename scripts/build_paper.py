@@ -5,7 +5,7 @@ def main():
     ap=argparse.ArgumentParser();ap.add_argument('--tex-bin',type=pathlib.Path,help='Optional directory containing pdflatex and bibtex');args=ap.parse_args()
     env=os.environ.copy()
     if args.tex_bin:env['PATH']=str(args.tex_bin)+os.pathsep+env['PATH']
-    env['SOURCE_DATE_EPOCH']='1793491200'
+    env.setdefault('SOURCE_DATE_EPOCH','1793664000')
     with tempfile.TemporaryDirectory(prefix='partial_ports_paper_') as tmp:
         work=pathlib.Path(tmp)
         for p in (ROOT/'paper').iterdir():

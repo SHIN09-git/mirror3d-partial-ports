@@ -1,0 +1,5 @@
+# Preserve the deposited bytes for SHA-256 verification in every checkout.
+* -text
+*.npz binary
+*.pdf binary
+*.png binary

@@ -18,6 +18,7 @@ independent timestamp.
 | 31 October | Added complete-distance output responses and specified fourth-/sixth-order source and two-loop matching calculations. A seven-parameter subset was full rank, but no complete physical remainder bound was obtained. All 264 candidate predictions remained unqualified for the proposed later confirmation, which was never frozen or sampled. |
 | 1 November | User stopped further research and requested public-release preparation. A new literature check identified two-dimensional selected-boundary connection counting by Morin-Duchesne and Jacobsen. Preparation paused under the project procedure, then resumed with the user's explicit approval of the narrower novelty scope. No numerical verdict was changed. |
 | 1 November | Independently checked the stripe closed expression; prepared this report, all original decisions and both extrapolations; rebuilt the primary analyses from all compact observations in a new environment and replayed four original blocks exactly. No new physical seeds or samples were introduced. |
+| 3 November | Released the report, supplement, compact observations and reproduction code on GitHub as version 1.0.0. |
 
 Failed launches and superseded implementations are preserved in the private
 project archive and do not replace or erase completed samples. That archive

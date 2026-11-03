@@ -8,7 +8,7 @@ within statistical errors and the spread of two prescribed extrapolations.
 This is a specific reduction and numerical test, not a new general counting
 framework or a proof of the microscopic continuum limit.
 
-> **Not peer reviewed. Local release candidate 1.0.0-rc1, 1 November 2026.**
+> **Not peer reviewed. Version 1.0.0, 3 November 2026.**
 > Author: **JJIN HANZHE**. The author supplied directional guidance.
 > **Opus 5.5** proposed the initial plan; **GPT-6 Astra (max)** performed later
 > research design, simulations, analysis, derivations and writing. System
@@ -16,7 +16,7 @@ framework or a proof of the microscopic continuum limit.
 > exact identities and independent numerical calculations. There has been
 > **no external human expert review**.
 
-Read the [report](paper/paper.pdf) and [complete supplement](paper/sm.pdf).
+Download the [report](https://github.com/SHIN09-git/mirror3d-partial-ports/releases/download/v1.0.0/paper.pdf) and [complete supplement](https://github.com/SHIN09-git/mirror3d-partial-ports/releases/download/v1.0.0/sm.pdf) from the [version 1.0.0 release](https://github.com/SHIN09-git/mirror3d-partial-ports/releases/tag/v1.0.0). Both PDFs and their LaTeX sources are also in [paper/](paper/).
 
 ## Key results
 
@@ -175,10 +175,10 @@ Details are in [METHODS_NOTES.md](docs/METHODS_NOTES.md).
 ## Citation and licenses
 
 Please cite **JJIN HANZHE (2026), Partial ports and crossing fluctuations in the
-three-dimensional Lorentz mirror model, version 1.0.0-rc1**, and state that it
+three-dimensional Lorentz mirror model, version 1.0.0**, and state that it
 is an unreviewed research report. [CITATION.cff](CITATION.cff) retains the full
 supplied name as one citation string; no given/family-name order is inferred.
-No DOI or public repository URL has been assigned.
+Use the [version 1.0.0 release](https://github.com/SHIN09-git/mirror3d-partial-ports/releases/tag/v1.0.0) as the citation URL.
 
 [Code: MIT](LICENSE). [Manuscript, figures, documentation and data: CC BY 4.0](LICENSE-DOCS).
 External dependencies retain their own licenses. AI systems are disclosed
@@ -188,4 +188,4 @@ as tools and are not listed as authors.
 
 [HISTORY.md](docs/HISTORY.md) records the progression, failed and inconclusive
 tests, later corrections and the decision to stop further research.
-This directory is a local candidate for review; it has not been uploaded.
+The [release notes](docs/RELEASE.md) describe the files archived with version 1.0.0.
