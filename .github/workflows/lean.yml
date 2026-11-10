@@ -1,0 +1,52 @@
+name: Verify Lean mirror-port proofs
+
+on:
+  push:
+    paths:
+      - 'lean/**'
+      - '.github/workflows/lean.yml'
+  pull_request:
+    paths:
+      - 'lean/**'
+      - '.github/workflows/lean.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      LEAN_NUM_THREADS: 2
+    defaults:
+      run:
+        working-directory: lean
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Install pinned Lean
+        uses: leanprover/lean-action@fe408643ea7367d8c0404a8be3975bb145f5fb64 # v1
+        with:
+          lake-package-directory: lean
+          auto-config: "false"
+          build: "false"
+          test: "false"
+          lint: "false"
+          use-mathlib-cache: "false"
+          use-github-cache: "false"
+      - name: Fetch the required mathlib modules
+        run: >-
+          lake exe cache get
+          Mathlib.Dynamics.PeriodicPts.Lemmas Mathlib.Algebra.BigOperators.Group.Finset.Basic
+          Mathlib.Algebra.Group.Fin.Basic Mathlib.Data.Fintype.Prod Mathlib.Tactic.DeriveFintype
+      - name: Build the proofs and audit their transitive axioms
+        run: |
+          lake build
+          lake env lean -DwarningAsError=true Audit.lean
+      - name: Replay the proofs and imports in a fresh Lean kernel
+        run: |
+          git clone --quiet https://github.com/leanprover/lean4checker.git .verification-tools/lean4checker
+          git -C .verification-tools/lean4checker checkout --quiet --detach da26eb05e9959402afcb9bd6dfe5dc4f700f70d6
+          lake -d .verification-tools/lean4checker build lean4checker
+          lake env ./.verification-tools/lean4checker/.lake/build/bin/lean4checker --fresh -v MirrorPorts.Example
